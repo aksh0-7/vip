@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+ <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+  <div class="container">
+    <h1>SIGN UP</h1>
+    <form>
+      <label for="full-name">Full Name:</label>
+      <input type="text" id="full-name" name="full-name" required placeholder="Enter Name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter Email">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required placeholder="Enter Password">
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required placeholder="Enter Phone-number">
+
+      <label for="resume">Upload Resume:</label>
+      <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" required placeholder="Enter Your Detailed Address"></textarea>
+
+      <div class="icondiv">
+       Sign Up With  <a class="icon" class="mr-2" href="#">
+            <img src="google.svg" alt="Google Icon" />
+          </a>
+           or  <a class="icon" href="#">
+            <img src="linkedin.svg" alt="LinkedIn Icon" />
+          </a>
+        </div>
+      <div class="button-container">
+        <button type="submit">Sign Up</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

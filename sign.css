@@ -1,0 +1,109 @@
+body {
+    background: linear-gradient(to bottom, #f6f4f4, #212A3E);
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .container {
+    width: 500px;
+    margin-block: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:sans-serif;
+  }
+
+  form {
+    display: grid;
+    gap: 10px;
+  }
+
+  label {
+    font-weight: regular;
+    font-family:sans-serif;
+  }
+
+  input,
+  textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px groove #8e8d8d;
+    border-radius: 8px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .button-container button {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: regular;
+    text-decoration: none;
+    color: #fff;
+    background-color: #212A3E;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family:sans-serif;
+  }
+
+  .button-container button:hover {
+    background-color: #385085;
+    
+  }
+
+
+  .icondiv{
+    margin-top: 20px;
+  }
+  .icon{
+    margin-block: auto;
+
+  }
+  
+  .mr-2{
+    margin-right: 30px;
+  }
+
+  
+@media only screen and (max-width: 1100px) {
+    
+    .container {
+        width: 50%;
+        margin-inline: 10px;
+        }
+      }
+
+@media only screen and (max-width: 900px) {
+    
+.container {
+    width: 70%;
+    margin-inline: 10px;
+    }
+  }
+
+  
+@media only screen and (max-width: 600px) {
+    
+    .container {
+        width: 90%;
+        margin-inline: 10px;
+        }
+      }
+
